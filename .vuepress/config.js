@@ -7,6 +7,13 @@ module.exports = {
             {text: 'Home', link: '/'},
             {text: 'Guide', link: '/guide/'},
             {text: 'About me', link: 'http://github.com'},
-        ]
+        ],
+        sidebar: {
+            '/guide/':[
+                '',
+                'frontend',
+                'backend'
+            ]
+        }
     }
 }
